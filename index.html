@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Starbucks</title>
+
+
+
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu-btn").addEventListener("click", function(){
+                if (document.querySelector(".menu nav").style.display == 'flex') {
+                    document.querySelector(".menu nav").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav").style.display = 'flex';
+                }
+            });
+            window.addEventListener('resize', function(){
+                if (window.innerWidth > 800){
+                    document.querySelector(".menu nav").style.display = 'flex';
+                } else {
+                    document.querySelector(".menu nav").style.display = 'none';
+                }
+            });
+        };
+    </script>
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+    <!-- HEADER  HEADER HEADER-->
+<header>
+    <div class="border">
+</div>
+<div class="header-area">
+<div class="header-left">
+    <a href="https://www.linkedin.com/in/alberto-paim-360782258/" target="_blank"><img src="assets/img/logo.png" alt="logo"></a>
+</div>
+<div class="header-right">
+    <div class="search-area">
+        <input type="text" placeholder="Search">
+        <a href="https://www.linkedin.com/in/alberto-paim-360782258/" target="_blank"><img src="assets/img/loupe.png" alt="lupa"></a>
+    </div>
+    <div class="menu">
+    <img src="assets/img/menu.png" alt="botão menu"class="menu-btn">
+    <nav>
+        <ul>
+           <a href="#1"><li>Home</li></a>
+           <a href="#2"><li>Lady Gaga</li></a>
+           <a href="#3"><li>Options</li></a>
+           <a href="#contato"><li>Contact</li></a>
+        </ul>
+    </nav>
+    </div>
+    <div class="menu1">
+        <img src="assets/img/menu.png" alt="botão menu"class="menu-btn">
+        <nav>
+            <ul>
+               <a href="#1"><li>Home</li></a>
+               <a href="#2"><li>Lady Gaga</li></a>
+               <a href="#3"><li>Options</li></a>
+               <a href="#contato"><li>Contact</li></a>
+            </ul>
+        </nav>
+        </div>
+   
+</div>
+</div>
+</header>
+
+<!-- PRIMEIRO CONTAINER -->
+<section class="container1" id="1">
+<div class="banner">
+    <h1>Starbucks® <br> Happy Hour</h1>
+    <p>We'll meet you in your inbox. Drink deals are on their way.</p>
+    <div class="banner-imgs">
+        <a href="https://www.linkedin.com/in/alberto-paim-360782258/" target="_blank"><img src="assets/img/c1.jpg" alt=""></a>
+        <a href="https://www.linkedin.com/in/alberto-paim-360782258/" target="_blank"><img src="assets/img/c2.jpg" alt=""></a>
+        <a href="https://www.linkedin.com/in/alberto-paim-360782258/" target="_blank"><img src="assets/img/c3.jpg" alt=""></a>
+    </div>
+</div>
+</section>
+
+<!-- GRID AREA 1 -->
+<section class="area1" id="2">
+    <div class="area1-info">
+        <div class="top-tarja"></div>
+        <h2 class="h2title">Four Drinks, A Million<br>Reasons</h2>
+        <p class="quote">"Just love yourself and you're set." – Lady Gaga</p>
+        <p class="describe">Lady Gaga and Starbucks share a mission: to build a kinder, braver world. Through the Born This Way Foundation, Lady Gaga has inspired her fans to embrace kindness in their communities—online and in the world. With your help, we can empower young people to spread more kindness.</p>
+        <a href="https://www.linkedin.com/in/alberto-paim-360782258/" target="_blank" class="button">learn more</a>
+    </div>
+    <div class="area1-img1"></div>
+    <div class="area1-img2"></div>
+</section>
+
+<!-- GRID AREA 2 -->
+
+<section class="area2" id="3">
+    <div class="area2-info">
+        <div class="top-tarja"></div>
+        <h2 class="h2title">Introducing Vanilla Sweet<br>Cream Cold Brew—Sweet,<br> Creamy, Cold, Bold.</h2>
+        <p class="describe">Just before serving, our slow-steeped custom blend Starbucks® Cold Brew Coffee is topped with a delicate float of house-made vanilla sweet cream that cascades throughout the cup.</p>
+        <a href="https://www.linkedin.com/in/alberto-paim-360782258/" target="_blank" class="button">learn more</a>
+    </div>
+    <div class="area2-img3"></div>
+    <div class="area2-img4"></div>
+</section>
+
+<!-- GRID AREA 3 -->
+
+<section class="area3">
+    
+    <div class="area3-img5">
+    <div class="area3-info">
+        <div class="top-tarja"></div>
+        <h2 class="h2title">The New Ultra Caramel<br>Frappuccino Is Here!</h2>
+        <p class="describe">Congrats on doing that thing! This calls for caramel. Lots of it. With cold brew whipped cream. The new Ultra Caramel Frappuccino is here!</p>
+        <a href="https://www.linkedin.com/in/alberto-paim-360782258/" target="_blank" class="button">learn more</a>
+    </div>
+   
+    </div>
+    <div class="area3-img6"></div>
+</section>
+
+<!-- BANNER2 -->
+
+<section class="banner2">
+    <div class="banner2-info">
+        <div class="top-tarja"></div>
+        <h2 class="h2title">Introducing Vanilla Sweet<br>Cream Cold Brew—Sweet,<br> Creamy, Cold, Bold.</h2>
+        <p class="describe">Just before serving, our slow-steeped custom blend Starbucks® Cold Brew Coffee is topped with a delicate float of house-made vanilla sweet cream that cascades throughout the cup.</p>
+        <a href="https://www.linkedin.com/in/alberto-paim-360782258/" target="_blank" class="button">learn more</a>
+    </div>
+    <div class="banner2-img7"></div>
+</section>
+
+<footer id="contato">
+    <h3>Starbucks®</h3>
+    <p>Template created with Nicepage.</p>
+    <a href="https://www.linkedin.com/in/alberto-paim-360782258/" target="_blank"><h2>Refeito por Alberto Paim</h2></a>
+</footer>
+
+</body>
+</html>
